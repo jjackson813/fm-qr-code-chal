@@ -1,0 +1,41 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+p{
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+.square {
+    width: 500px;
+    height: 800px;
+    background-color: #f7f7f7;
+    justify-content: space-around;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+img{
+    margin: 3rem;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+.square h1 {
+    padding-inline: 35px;
+    padding-bottom: 60px;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.square p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding-inline-start: 20px;
+
+}
